@@ -1,0 +1,221 @@
+body
+{
+    margin: 0;
+}
+
+.bgimg img
+{
+    position: relative;
+    background-size: cover;
+    height: 650px;
+    width: 1343px;
+}
+
+.title h1
+{
+    position:absolute;
+    top: 15px;
+    left: 500px;
+    color: rgb(247, 241, 241);
+}
+
+.inputs input
+{
+    position:absolute;
+    
+    border-radius: 13px;
+    height: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.inputs button
+{
+    left: 620px;
+    top: 500px;
+    position: absolute;
+    background-color: #be2722;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: medium;
+    border-color: #e2dddc;
+    border: #f3efed;
+    
+}
+
+.inputs button:hover
+{
+    cursor: pointer;
+    background-color: #e21a1a;
+    border-color: #f5eeee;
+    border: #f3eded;
+}
+
+#i1
+{
+    left: 400px;
+    top: 130px;
+}
+
+#i2
+{
+    left: 400px;
+    top: 200px;
+}
+
+#i3
+{
+    left: 400px;
+    top: 270px;
+}
+
+#i4
+{
+    left: 400px;
+    top: 340px;
+}
+
+#i5
+{
+    left: 400px;
+    top: 410px;
+}
+
+#i6
+{
+    left: 800px;
+    top: 130px;
+}
+
+#i7
+{
+    left: 800px;
+    top: 200px;
+}
+
+#i8
+{
+    left: 800px;
+    top: 270px;
+}
+
+#i9
+{
+    left: 800px;
+    top: 340px;
+}
+
+#i10
+{
+    left: 800px;
+    top: 410px;
+}
+
+
+
+
+.bottom_nav
+{
+    width: 1338.4px;
+    padding-top: 150px;
+    background-color: rgb(214, 224, 231);
+    border: 2px solid black;
+    top: 648px;
+    position: absolute;
+    padding-left: 1.1px;
+}
+
+.follow
+{
+    padding-left:381px;
+    top: 9.4px;
+    position: absolute;
+}
+
+.fa 
+{  
+    padding: 7px;  
+    text-align: center;  
+    margin: 35px 28px;  
+    font-size: 10px;  
+    width: 20px; 
+    border-radius: 10px; 
+} 
+
+
+.fa-facebook 
+{  
+    background: #3b5998;  
+    color: white;  
+    position: absolute;
+    left: 290px;
+    top: 50px;
+    
+}  
+
+.fa-twitter {  
+    background: #2a8dd8;  
+    color: white; 
+    position: absolute;
+    left: 377px;
+    top: 50px;
+  }  
+ 
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white; 
+    position: absolute;
+    left: 464px;
+    top: 50px; 
+  }  
+
+  .fa-instagram {  
+    background: #ff006a;  
+    color: white; 
+    position: absolute;
+    left: 551px;
+    top: 50px; 
+  }  
+
+.my_create
+{
+    position: absolute;
+    top: 0px;
+    left: 795px;
+}
+
+.contact_me
+{
+    position: absolute;
+    top: 77.2px;
+}
+
+
+.benign
+{
+    position: absolute;
+    top: 545px;
+    left: 450px;
+    width: 700px;
+}
+
+.malignant
+{
+    position: absolute;
+    top: 545px;
+    left: 423px;
+    width: 700px;
+}
+
+.res h1
+{
+    color: white;
+}
+
+
