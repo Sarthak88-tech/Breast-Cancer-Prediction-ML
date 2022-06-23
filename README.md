@@ -1,9 +1,9 @@
 # Breast Cancer Prediction Using Python
-# Problem Statement: 
+# Problem Statement
 To classify breast cancer as either Malignant or Benign.
 # Dataset
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
-# Project Briefing: 
+# Project Briefing
 One of the most common cancers diagnosed worldwide, including in India, is breast cancer. 
 Despite the excellent survival rate, 97% of women can survive for more than 5 years with early diagnosis. 
 According to statistics, the number of deaths caused by this illness has dramatically grown in recent years. 
