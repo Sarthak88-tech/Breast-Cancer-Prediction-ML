@@ -16,7 +16,7 @@ the logistic regression machine learning classification approach.
 # Screenshots
 ![breast-cancer-predictor-SS](https://user-images.githubusercontent.com/78649337/175235010-6f5c4e31-1b07-4a3f-ad66-73332fca0bf5.png)
 # Conclusion
-1. The project's goal was to determine if a tumour was malignant or benign.
+1. The project's goal is to determine if a tumour is malignant or benign.
 2. Using the feature dataset and Logistic Regression algorithm predictions were made.
 3. Logistic Regression provided accuracy of 92%.
 4. After normalising the data, logistic regression properly categorising tumours as malignant or benign around 92–93% of the time.
