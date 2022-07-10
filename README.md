@@ -15,3 +15,10 @@ In order to accomplish this, I fitted a function that can predict the discrete c
 the logistic regression machine learning classification approach.
 # Screenshots
 ![breast_new_ss](https://user-images.githubusercontent.com/78649337/178145142-4b5bde6b-d990-4df7-a2af-fc279f48060c.png)
+# Conclusion
+1. The project's goal is to determine if a tumour is malignant or benign.
+2. Using the feature dataset and Logistic Regression algorithm predictions were made.
+3. Logistic Regression provided accuracy of 92%.
+4. After normalising the data, logistic regression properly categorising tumours as malignant or benign around 92–93% of the time.
+# Project URL
+https://breast-cancer-predictor-ml.herokuapp.com
