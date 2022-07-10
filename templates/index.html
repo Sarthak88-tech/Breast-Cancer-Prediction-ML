@@ -9,39 +9,34 @@
     <title>Breast Cancer Prediction</title>
 </head>
 <body>
-    <div class="first_page">
-        <div class="bgimg">
-            <img src="https://th.bing.com/th/id/R.3a5fc820cbdd03665c95456137b7f5b2?rik=Kh1adSuYRExRGA&riu=http%3a%2f%2fwww.worldatlas.com%2fr%2fw728-h425-c728x425%2fupload%2f5b%2fdf%2f32%2fshutterstock-523759291.jpg&ehk=32iAt7UutRpLpR9gXPyM%2bNVIxRKnuyVOypJwv9psa5Q%3d&risl=&pid=ImgRaw&r=0" alt="No image">
-        </div>   
         <div class="title">
-            <center><h1 style="color: rgb(223, 32, 32);">Breast Cancer Predictor</h1> </center>
+            <h1 style="color: rgb(223, 32, 32);">Breast Cancer Predictor</h1>
         </div>
         <div class="forms">
-            <div class="inputs">
-                <form action="{{ url_for('predict') }}" method="POST">
-                    <input type="number" placeholder="Radius mean" name="rmean" id="i1" required step="any">
-                    <input type="number" placeholder="Texture mean" name="tmean" id="i2" required step="any">
-                    <input type="number" placeholder="Smoothness mean" name="smmean" id="i3" required step="any">
-                    <input type="number" placeholder="Compactness mean" name="cmean" id="i4" required step="any">
-                    <input type="number" placeholder="Symmetry mean" name="symean" id="i5" required step="any">
-                    <input type="number" placeholder="Fractal Dimension mean" name="fdmean" id="i6" required step="any">
-                    <input type="number" placeholder="Texture SE" name="tse" id="i7" required step="any">
-                    <input type="number" placeholder="Smoothness SE" name="smse" id="i8" required step="any">
-                    <input type="number" placeholder="Symmetry SE" name="syse" id="i9" required step="any">
-                    <input type="number" placeholder="Symmetry Worst" name="sywt" id="i10" required step="any">
-                    <button name="submit">Predict</button>  
-                </form>
-                <div class="res">
-                    {% if p==1 %}
-                    <div class="malignant">
-                        <h1 style="position: absolute;">Patient has <span style="color:red;">Malignant</span> type of Cancer</h1>
-                    </div>
-                    {% elif p==0 %}
-                    <div class="benign">  
-                        <h1 style="position: absolute;">Patient has <span style="color:red;">Benign</span> type of Cancer</h1>
-                    </div>       
-                    {% endif %}
+            <form action="/predict" method="POST">
+                <br><br><br><br><br><br>
+                <input type="number" placeholder="Radius mean" name="rmean" id="i1" required step="any"><br><br><br>
+                <input type="number" placeholder="Texture mean" name="tmean" id="i2" required step="any"><br><br><br>
+                <input type="number" placeholder="Smoothness mean" name="smmean" id="i3" required step="any"><br><br><br>
+                <input type="number" placeholder="Compactness mean" name="cmean" id="i4" required step="any"><br><br><br>
+                <input type="number" placeholder="Symmetry mean" name="symean" id="i5" required step="any"><br><br><br>
+                <input type="number" placeholder="Fractal Dimension mean" name="fdmean" id="i6" required step="any"><br><br><br>
+                <input type="number" placeholder="Texture SE" name="tse" id="i7" required step="any"><br><br><br>
+                <input type="number" placeholder="Smoothness SE" name="smse" id="i8" required step="any"><br><br><br>
+                <input type="number" placeholder="Symmetry SE" name="syse" id="i9" required step="any"><br><br><br>
+                <input type="number" placeholder="Symmetry Worst" name="sywt" id="i10" required step="any"><br><br><br>
+                <button name="submit">Predict</button>  <br><br><br>
+            </form>
+            <div class="res">
+                {% if p==1 %}
+                <div class="malignant">
+                    <br><br><br><h1 style="color: white;">Patient has <span style="color:red;">Malignant</span> type of Cancer</h1>
                 </div>
+                {% elif p==0 %}
+                <div class="benign">  
+                    <br><br><br><h1 style="color: whi;">Patient has <span style="color:red;">Benign</span> type of Cancer</h1>
+                </div>       
+                {% endif %}
             </div>
         </div>
     </div>
@@ -60,7 +55,7 @@
             <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-label="ins"></i></a>
             </div>
         <div class="my_create">
-            <h3>PROJECT BY</h3>
+            <br><h3>PROJECT BY</h3>
             <h4>Sarthak Wakchaure !</h4>
             <div class="contact_me">
                 <h4>Mobile:- 9850852297</h4>
